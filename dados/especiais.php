@@ -10,6 +10,70 @@ $especiais = [
     receita ....
   HTML*/
   [
+  "id" => "ReceitadeMaçãdoAmorTradicional",
+  "titulo" => "Receita de Maçã do Amor Tradicional",
+  "subtitulo" => "Receita de Maçã do Amor Tradicional e simples de fazer",
+  "descricao" => "Receita de Maçã do Amor Tradicional",
+  "imagem" => "imgs/maca-do-amor.jpg",
+  "receita_completa" => <<<HTML
+  <section class="receita">
+  <h2>Receita de Maçã do Amor Tradicional</h2>
+
+  <p>
+    A maçã do amor é uma das receitas mais clássicas das festas juninas e também faz sucesso em aniversários, eventos e vendas. 
+    Com uma casquinha vermelha crocante por fora e a maçã suculenta por dentro, essa delícia conquista crianças e adultos.
+  </p>
+
+  <h2>Ingredientes</h2>
+
+  <ul>
+    <li>6 maçãs médias</li>
+    <li>6 palitos de sorvete ou churrasco</li>
+    <li>2 xícaras de açúcar</li>
+    <li>1 xícara de água</li>
+    <li>1 colher de sopa de vinagre branco</li>
+    <li>1 colher de chá de corante alimentício vermelho</li>
+  </ul>
+
+  <h2>Modo de Preparo</h2>
+
+  <ol>
+    <li>Lave bem as maçãs e seque completamente para que a calda fixe corretamente.</li>
+    <li>Espete os palitos na parte superior de cada maçã e reserve.</li>
+    <li>Em uma panela, adicione o açúcar, a água, o vinagre e o corante vermelho.</li>
+    <li>Misture apenas no início e leve ao fogo médio.</li>
+    <li>Deixe cozinhar sem mexer até atingir ponto de bala dura.</li>
+    <li>Para testar, pingue um pouco da calda em um copo com água. Se endurecer rapidamente, está no ponto certo.</li>
+    <li>Desligue o fogo e mergulhe as maçãs na calda, girando para cobrir toda a superfície.</li>
+    <li>Coloque as maçãs sobre papel manteiga untado e deixe esfriar até a casquinha endurecer.</li>
+  </ol>
+
+  <h2>Dicas para a Maçã do Amor Perfeita</h2>
+
+  <ul>
+    <li>As maçãs precisam estar totalmente secas antes de receber a calda.</li>
+    <li>Evite mexer a calda durante o cozimento para não açucarar.</li>
+    <li>Você pode usar maçã gala ou fuji para um sabor ainda mais doce.</li>
+    <li>Embale em saquinhos transparentes para vender ou presentear.</li>
+  </ul>
+
+  <h2>Benefícios da Maçã</h2>
+
+  <p>
+    A maçã é rica em fibras, vitaminas e antioxidantes naturais. Além de deliciosa, ajuda na digestão e contribui para uma alimentação equilibrada quando consumida com moderação.
+  </p>
+
+  <h2>Informações da Receita</h2>
+
+  <ul>
+    <li><strong>Tempo de preparo:</strong> 30 minutos</li>
+    <li><strong>Rendimento:</strong> 6 unidades</li>
+    <li><strong>Dificuldade:</strong> Média</li>
+  </ul>
+  </section>
+  HTML
+  ],
+  [
   "id" => "PudimdeMilhoVerdeCremoso",
   "titulo" => "Pudim de Milho Verde Cremoso",
   "subtitulo" => "Receita simples e rápida de fazer de Pudim de Milho Verde Cremoso",
