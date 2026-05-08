@@ -5,9 +5,6 @@
 <main class="main">
   <div class="titulo-top">
   <div class="container">
-    <h2>Site em atualização</h2>
-    <p>Obrigado</p>
-    <p>Obrigado</p>
     <?php
       $quantidade = count($receitas);
       error_reporting(E_ALL);
