@@ -5,6 +5,7 @@
 <main class="main">
   <div class="titulo-top">
   <div class="container">
+    <h1>ola</h1>
     <?php
       $quantidade = count($receitas);
       error_reporting(E_ALL);
