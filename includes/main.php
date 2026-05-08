@@ -5,6 +5,7 @@
 <main class="main">
   <div class="titulo-top">
   <div class="container">
+    <h2>Site em atualização</h2>
     <?php
       $quantidade = count($receitas);
       error_reporting(E_ALL);
