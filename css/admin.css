@@ -1,0 +1,166 @@
+:root {
+  --cor-preto:  #4a4a4a;
+  /*--cor-preto: #191717;*/
+  --cor-branco: #fff;
+  --cor-amarelo: #d1d103;
+  --cor-laranja: /*#fe4040*/ #d65502;
+  --cor-verde: green;
+  --cor-fundo: #f3f3f3;
+  --cor-linhas: /*#adadad*/ #cdcdcd;
+  --cor-cards: /*#f3f3f3*/ #fff;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Arial", Helvetica, Sans-Serif;
+}
+.admin {
+  width: 100%;
+  height: 100dvh;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../imgs/camarao.avif") no-repeat;
+  background-size: cover;
+  color: var(--cor-branco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.form-log {
+  background: transparent;
+  padding: 2rem;
+  width: 500px;
+  min-width: 300px;
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+}
+.form-log h1 {
+  margin: 2rem 0;
+  color: var(--cor-laranja);
+}
+.label {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+}
+.input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+}
+.btn {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  margin: 2rem;
+  background: var(--cor-laranja);
+  color: var(--cor-branco);
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  letter-spacing: 2px;
+}
+.input:hover {
+  outline: 0.2rem solid gray;
+}
+
+/* Painel Dashboard*/
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.header-admin {
+  background: var(--cor-laranja);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-admin h1 {
+  font-size: 2rem;
+  color: var(--cor-branco);
+}
+.nav-admin ul {
+  list-style: none;
+  display: flex;
+}
+.nav-admin a {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--cor-branco);
+  font-weight: bold;
+}
+.painel_cadastro {
+  padding: 5rem 1rem;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+.painel_cadastro label {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+}
+.painel_cadastro input {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0 2rem 0;
+  padding: 0.8rem;
+  outline: none;
+  border: 0.2rem solid var(--cor-linhas);
+  border-radius: 0.5rem;
+}
+.painel_cadastro input:hover {
+  border: 0.2rem solid #a1a1a1;
+}
+.inputFile {
+  background: var(--cor-cards);
+  height: auto;
+}
+.painel_cadastro textarea {
+  display: block;
+  width: 100%;
+  height: 400px;
+  margin: 0.5rem 0 3rem 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0.2rem solid var(--cor-linhas);
+}
+.painel_cadastro textarea:hover {
+  border: 0.2rem solid #a1a1a1;
+}
+.painel_cadastro button {
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  background: var(--cor-laranja);
+  color: var(--cor-branco);
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
