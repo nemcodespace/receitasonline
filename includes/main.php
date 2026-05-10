@@ -12,6 +12,7 @@
     <div class="titulo">
       <div class="titulo-hero">
         <h1>Receitas online</h1>
+        <h2>Receitas postadas todos os dias</h2>
         <p>Receitas Caseiras Fáceis e Testadas</p>
       </div>
       <!-- CONTADOR DE RECEITAS -->

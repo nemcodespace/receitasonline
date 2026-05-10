@@ -109,7 +109,7 @@ htmlspecialchars($currentPost['imagem'] ?? 'imgs/berinjela.avif', ENT_QUOTES, 'U
       <div class="container">
         <form action="busca.php" method="GET">
             <div class="busca_input">
-              <input type="search" name="nome" placeholder="Buscar receitas...">
+              <input type="search" name="nome" placeholder="Buscar receitas..." required="">
               <button type="submit"><img src="icons/search.svg" alt="submit" width="20px"></img>
             </div>
         </form>
