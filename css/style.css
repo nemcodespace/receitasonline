@@ -104,6 +104,18 @@ body h1,h2,h3,h4,h5,h6 {
   display: flex;
   gap: 1rem;
 }
+.logo-radius a {
+  padding: 1rem;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--cor-branco);
+  border: none;
+  outline: none;
+}
 
 /* MENU TOP */
 .menu-top {

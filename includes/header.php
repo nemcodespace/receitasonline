@@ -73,8 +73,11 @@ htmlspecialchars($currentPost['imagem'] ?? 'imgs/berinjela.avif', ENT_QUOTES, 'U
           <a href="index.php">Receitas Online</a>
           <div class="logo-radius">
             <button onclick="mostrarSearch()">
-              <img src="icons/search2.svg" alt="">
+              <img src="icons/search2.svg" alt="search">
             </button>
+            <a href="./contato.php">
+              <img src="icons/add.svg" alt="adicionar receita">
+            </a>
           </div>
         </div>
       </div><!-- FIM DA LOGO -->
