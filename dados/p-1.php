@@ -987,7 +987,7 @@ $pagina1 = [
   //BOLO CENOURA CREMOSO
   [
   "id" => "bolocenoura",
-  "titulo" => "Bolo cenoura cremoso",
+  "titulo" => "Bolo de cenoura cremoso",
   "subtitulo" => "Um bolo de cenoura cremoso, úmido e com textura macia, coberto com uma calda brilhante de chocolate. Receita simples, rápida e perfeita para o café da tarde ou lanche. Funciona tanto em forma tradicional quanto em forma redonda.",
   "descricao" => "Um bolo de cenoura cremoso, úmido e com textura macia, coberto com uma calda brilhante de chocolate. Receita simples, rápida e perfeita para o café da tarde ou lanche. Funciona tanto em forma tradicional quanto em forma redonda.",
   "imagem" => "../imgs/bolo_cenoura.avif",
