@@ -10,6 +10,103 @@ $especiais = [
     receita ....
   HTML*/
   [
+  "id" => "ReceitadeArrozDoceCremoso",
+  "titulo" => "Receita de Arroz Doce Cremoso",
+  "subtitulo" => "Receita completa de Arroz Doce Cremoso",
+  "descricao" => "Receita de Arroz Doce Cremoso",
+  "imagem" => "imgs/arroz-doce.jpg",
+  "receita_completa" => <<<HTML
+  <section class="receita">
+  <h2>Receita completa de Arroz Doce Cremoso</h2>
+
+  <p>
+    O arroz doce é uma sobremesa clássica, cremosa e cheia de sabor. 
+    Fácil de preparar, combina perfeitamente com dias frios, festas juninas 
+    ou aquele café da tarde especial em família.
+  </p>
+
+  <h2>Ingredientes</h2>
+
+  <ul>
+    <li>1 xícara de arroz branco</li>
+    <li>2 xícaras de água</li>
+    <li>1 litro de leite</li>
+    <li>1 caixa de leite condensado</li>
+    <li>1 caixa de creme de leite</li>
+    <li>1 pau de canela</li>
+    <li>3 cravos-da-índia</li>
+    <li>1/2 xícara de açúcar (opcional)</li>
+    <li>Canela em pó para polvilhar</li>
+  </ul>
+
+  <h2>Modo de Preparo</h2>
+
+  <ol>
+    <li>
+      Lave o arroz e coloque em uma panela com a água, o pau de canela 
+      e os cravos.
+    </li>
+
+    <li>
+      Cozinhe em fogo médio até a água secar quase completamente.
+    </li>
+
+    <li>
+      Adicione o leite aos poucos e mexa bem para o arroz ficar cremoso.
+    </li>
+
+    <li>
+      Acrescente o leite condensado e continue mexendo por cerca de 
+      10 minutos.
+    </li>
+
+    <li>
+      Se desejar mais doce, adicione o açúcar e misture.
+    </li>
+
+    <li>
+      Desligue o fogo e acrescente o creme de leite para deixar a sobremesa 
+      ainda mais cremosa.
+    </li>
+
+    <li>
+      Sirva quente ou gelado e finalize com canela em pó por cima.
+    </li>
+  </ol>
+
+  <h2>Benefícios do Arroz Doce</h2>
+
+  <ul>
+    <li>Receita simples e econômica</li>
+    <li>Ótima opção para sobremesas caseiras</li>
+    <li>Fonte de energia rápida</li>
+    <li>Combina com diversas ocasiões especiais</li>
+  </ul>
+
+  <h2>Dicas Especiais</h2>
+
+  <ul>
+    <li>
+      Para um sabor ainda mais intenso, utilize leite integral.
+    </li>
+
+    <li>
+      Você pode adicionar coco ralado para deixar o arroz doce mais saboroso.
+    </li>
+
+    <li>
+      Caso prefira uma versão mais cremosa, deixe cozinhar por mais tempo 
+      em fogo baixo.
+    </li>
+
+    <li>
+      Sirva em taças individuais para uma apresentação mais bonita.
+    </li>
+  </ul>
+  </section>
+  HTML
+  ],
+  [
   "id" => "ReceitadeMaçãdoAmorTradicional",
   "titulo" => "Receita de Maçã do Amor Tradicional",
   "subtitulo" => "Receita de Maçã do Amor Tradicional e simples de fazer",
