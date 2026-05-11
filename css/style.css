@@ -489,9 +489,9 @@ body h1,h2,h3,h4,h5,h6 {
   height: 100%;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to top, rgba(0,0,0,5) 0%, rgba(0,0,0,0) 60%);
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 50%);
   position: absolute;
-  border-radius: 2rem 2rem;
+  border-radius: 0 0 1rem 1rem;
   pointer-events: none;
   z-index: 1;
 }
@@ -855,10 +855,6 @@ footer {
   display: flex;
   width: 15rem;
 }
-.text-receitas {
-  color: red;
-  line-height: 1.5;
-}
 /* ESPECIAIS */
 .especiais-main {
   padding: 1rem;
@@ -912,13 +908,25 @@ footer {
   margin: 0.2rem;
 }
 .especiais-a {
+  width: 110px;
   background: var(--cor-laranja);
-  padding: 0.2rem 1rem;
+  padding: 0.2rem;
   text-decoration: none;
   color: var(--cor-branco);
   border-radius: 0.5rem;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  margin: 0.5rem auto;
   text-transform: capitalize;
+}
+.especiais-a img {
+  width: 20px !important;
+  height: 20px !important;
+  margin: 0;
+  padding: 0;
+  display: inline;
 }
 
 /* MEDIA QUERIES */

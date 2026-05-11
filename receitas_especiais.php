@@ -21,7 +21,7 @@
         <img src="<?= htmlspecialchars($b["imagem"],ENT_QUOTES, 'UTF-8')?>" alt="<?= htmlspecialchars($b["titulo"], ENT_QUOTES, 'UTF-8')?>" width="100%">
         <div class="especiais-texto">
           <h2><?= htmlspecialchars(mb_substr($b["titulo"], 0, 22), ENT_QUOTES, 'UTF-8') . "..." ?></h2>
-          <span class="especiais-a">Ver receita</span>
+          <span class="especiais-a">Ver receita <img src="icons/flexa.svg" alt="ver receita"></span>
         </div>
       </a>
     </article>
