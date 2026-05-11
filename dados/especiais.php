@@ -689,6 +689,62 @@ $especiais = [
   </p>
   </section>
   HTML
+  ],
+  [
+  "id" => "ReceitadeMariaMoleCaseira",
+  "titulo" => "Receita de Maria Mole Caseira",
+  "subtitulo" => "Receita de Maria Mole Caseira simples e fácil de fazer",
+  "descricao" => "Receita de Maria Mole Caseira",
+  "imagem" => "imgs/maria-mole.jpg",
+  "receita_completa" => <<<HTML
+  <section class="receita">
+  <h2>Receita completa Maria Mole Caseira</h2>
+
+  <p>
+    A maria mole é um doce clássico brasileiro, leve, macio e perfeito para servir em festas ou acompanhar um café da tarde. 
+    Essa versão caseira fica super fofinha e com aquele sabor tradicional de infância.
+  </p>
+
+  <h2>Ingredientes</h2>
+
+  <ul>
+    <li>1 caixa de gelatina sem sabor</li>
+    <li>1 xícara de açúcar</li>
+    <li>1 xícara de água quente</li>
+    <li>1 colher de chá de essência de baunilha</li>
+    <li>1 pacote de coco ralado</li>
+    <li>Óleo para untar</li>
+  </ul>
+
+  <h2>Modo de Preparo</h2>
+
+  <ol>
+    <li>Dissolva a gelatina sem sabor na água quente.</li>
+    <li>Coloque no liquidificador junto com o açúcar e a essência de baunilha.</li>
+    <li>Bata por aproximadamente 10 minutos até formar um creme bem volumoso e fofo.</li>
+    <li>Unte uma forma com um pouco de óleo.</li>
+    <li>Despeje a mistura na forma e leve à geladeira por cerca de 4 horas.</li>
+    <li>Depois de firme, corte em cubos.</li>
+    <li>Passe os pedaços no coco ralado e sirva.</li>
+  </ol>
+
+  <h2>Benefícios da Receita</h2>
+
+  <ul>
+    <li>Receita simples e econômica</li>
+    <li>Não precisa de forno</li>
+    <li>Ótima para festas e sobremesas</li>
+    <li>Textura leve e aerada</li>
+  </ul>
+
+  <h2>Dicas Especiais</h2>
+
+  <p>
+    Para deixar a maria mole ainda mais saborosa, você pode adicionar raspas de limão ou trocar a baunilha por essência de coco.
+    Outra dica é usar coco fresco ralado para um sabor mais intenso.
+  </p>
+  </section>
+  HTML
   ]
   
 ];
