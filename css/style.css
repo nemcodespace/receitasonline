@@ -800,6 +800,9 @@ body h1,h2,h3,h4,h5,h6 {
   border: 0.3rem solid var(--cor-laranja);
   background: var(--cor-preto);
 }
+#mark {
+  background: var(--cor-preto);
+}
 
 /* FOOTER */
 footer {
