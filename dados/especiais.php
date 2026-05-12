@@ -11,6 +11,7 @@ $especiais = [
   HTML*/
   [
   "id" => "ReceitadeArrozDoceCremoso",
+  "tag" => "Festas juninas",
   "titulo" => "Receita de Arroz Doce Cremoso",
   "subtitulo" => "Receita completa de Arroz Doce Cremoso",
   "descricao" => "Receita de Arroz Doce Cremoso",
@@ -108,6 +109,7 @@ $especiais = [
   ],
   [
   "id" => "ReceitadeMaçãdoAmorTradicional",
+  "tag" => "Festas juninas",
   "titulo" => "Receita de Maçã do Amor Tradicional",
   "subtitulo" => "Receita de Maçã do Amor Tradicional e simples de fazer",
   "descricao" => "Receita de Maçã do Amor Tradicional",
@@ -172,6 +174,7 @@ $especiais = [
   ],
   [
   "id" => "PudimdeMilhoVerdeCremoso",
+  "tag" => "Festas juninas",
   "titulo" => "Pudim de Milho Verde Cremoso",
   "subtitulo" => "Receita simples e rápida de fazer de Pudim de Milho Verde Cremoso",
   "descricao" => "Pudim de Milho Verde Cremoso",
@@ -220,6 +223,7 @@ $especiais = [
   ],
   [
   "id" => "BolodeMilhoSimpleseFofinho",
+  "tag" => "Festas juninas",
   "titulo" => "Bolo de Milho Simples e Fofinho",
   "subtitulo" => "Deliciosa receita de Bolo de Milho Simples e Fofinho",
   "descricao" => "Bolo de Milho Simples e Fofinho",
@@ -271,6 +275,7 @@ $especiais = [
   ],
   [
   "id" => "MilhoCozidoSimpleseDelicioso",
+  "tag" => "Festas juninas",
   "titulo" => "Milho Cozido Simples e Delicioso",
   "subtitulo" => "Receita muito deliciosa de Milho cozido simples e delicioso",
   "descricao" => "Milho Cozido Simples e Delicioso",
@@ -317,6 +322,7 @@ $especiais = [
   ],
   [
   "id" => "PamonhaSalgadaTradicional",
+  "tag" => "Festas juninas",
   "titulo" => "Pamonha Salgada Tradicional",
   "subtitulo" => "Receita simples e completa Pamonha Salgada Tradicional",
   "descricao" => "Pamonha Salgada Tradicional",
@@ -369,6 +375,7 @@ $especiais = [
   ],
   [
   "id" => "FarofadePinhãoSimplesSaborosaeNutritiva",
+  "tag" => "Festas juninas",
   "titulo" => "Farofa de Pinhão simples, saborosa e nutritiva",
   "subtitulo" => "Receita completa de Farofa de Pinhão Simples, Saborosa e Nutritiva",
   "descricao" => "Farofa de Pinhão Simples, Saborosa e Nutritiva",
@@ -420,6 +427,7 @@ $especiais = [
   ],
   [
   "id" => "CanjicaSalgadacomCalabresa",
+  "tag" => "Festas juninas",
   "titulo" => "Canjica Salgada com Calabresa",
   "subtitulo" => "Receita deliciosa e simples de fazer Canjica Salgada com Calabresa",
   "descricao" => "Canjica Salgada com Calabresa",
@@ -473,6 +481,7 @@ $especiais = [
   ],
   [
   "id" => "CaldodeMandiocacomBaconCremoso",
+  "tag" => "Festas juninas",
   "titulo" => "Caldo de Mandioca com Bacon Cremoso",
   "subtitulo" => "Ótima receita para o frio de junho de Caldo de Mandioca com Bacon Cremoso",
   "descricao" => "Caldo de Mandioca com Bacon Cremoso",
@@ -526,6 +535,7 @@ $especiais = [
   ],
   [
   "id" => "TortadePaçocaCremosa",
+  "tag" => "Festas juninas",
   "titulo" => "Torta de Paçoca Cremosa",
   "subtitulo" => "Receita simples e deliciosa de Torta de Paçoca Cremosa",
   "descricao" => "Torta de Paçoca Cremosa",
@@ -577,6 +587,7 @@ $especiais = [
   ],
   [
   "id" => "DocedeAmendoimCaseiro",
+  "tag" => "Festas juninas",
   "titulo" => "Doce de Amendoim Caseiro simples e fácil",
   "subtitulo" => "Receita completa de Doce de Amendoim Caseiro",
   "descricao" => "Doce de Amendoim Caseiro",
@@ -624,6 +635,7 @@ $especiais = [
   ],
   [
   "id" => "CocadadeLeiteCondensado",
+  "tag" => "Festas juninas",
   "titulo" => "Cocada de Leite Condensado",
   "subtitulo" => "Receita completa de Cocada de Leite Condensado",
   "descricao" => "Cocada de Leite Condensado",
@@ -692,6 +704,7 @@ $especiais = [
   ],
   [
   "id" => "ReceitadeMariaMoleCaseira",
+  "tag" => "Festas juninas",
   "titulo" => "Receita de Maria Mole Caseira",
   "subtitulo" => "Receita de Maria Mole Caseira simples e fácil de fazer",
   "descricao" => "Receita de Maria Mole Caseira",
@@ -745,6 +758,111 @@ $especiais = [
   </p>
   </section>
   HTML
+  ],
+  [
+  "id" => "ReceitadeTapiocacomCarne",
+  "tag" => "Festas juninas",
+  "titulo" => "Receita de Tapioca com Carne",
+  "subtitulo" => "Receita de Tapioca com Carne simples e fácil de fazer",
+  "descricao" => "Receita de Tapioca com Carne",
+  "imagem" => "imgs/tapioca-carne.jpg",
+  "receita_completa" => <<<HTML
+  <section class="receita">
+  <h2>Receita de Tapioca com Carne</h2>
+
+  <p>
+    A tapioca com carne é uma opção deliciosa, prática e perfeita para o café da manhã,
+    almoço leve ou jantar rápido. Com uma massa crocante por fora e recheio suculento,
+    essa receita conquista pelo sabor e pela facilidade no preparo.
+  </p>
+
+  <h2>Ingredientes</h2>
+
+  <ul>
+    <li>500g de goma de tapioca hidratada</li>
+    <li>300g de carne bovina desfiada ou picada</li>
+    <li>1 colher de sopa de azeite</li>
+    <li>1/2 cebola picada</li>
+    <li>2 dentes de alho amassados</li>
+    <li>Sal a gosto</li>
+    <li>Pimenta-do-reino a gosto</li>
+    <li>Cheiro-verde picado a gosto</li>
+    <li>Queijo mussarela ralado (opcional)</li>
+  </ul>
+
+  <h2>Modo de Preparo</h2>
+
+  <ol>
+    <li>
+      Em uma panela, aqueça o azeite e refogue a cebola até ficar transparente.
+    </li>
+
+    <li>
+      Adicione o alho e mexa por alguns segundos.
+    </li>
+
+    <li>
+      Acrescente a carne desfiada ou picada e tempere com sal e pimenta-do-reino.
+    </li>
+
+    <li>
+      Cozinhe por alguns minutos até a carne ficar bem dourada e saborosa.
+    </li>
+
+    <li>
+      Finalize com cheiro-verde e reserve o recheio.
+    </li>
+
+    <li>
+      Aqueça uma frigideira antiaderente em fogo médio.
+    </li>
+
+    <li>
+      Espalhe a goma de tapioca cobrindo todo o fundo da frigideira.
+    </li>
+
+    <li>
+      Deixe cozinhar por cerca de 1 a 2 minutos até a massa ficar firme.
+    </li>
+
+    <li>
+      Coloque o recheio de carne em uma metade da tapioca.
+    </li>
+
+    <li>
+      Se desejar, adicione queijo mussarela para deixar ainda mais cremosa.
+    </li>
+
+    <li>
+      Dobre a tapioca ao meio e deixe mais alguns segundos no fogo.
+    </li>
+
+    <li>
+      Sirva quente e aproveite.
+    </li>
+  </ol>
+
+  <h2>Benefícios da Tapioca com Carne</h2>
+
+  <ul>
+    <li>Receita prática e rápida de preparar</li>
+    <li>Boa fonte de energia para o dia</li>
+    <li>Rica em proteínas graças ao recheio de carne</li>
+    <li>Versátil e fácil de adaptar com outros ingredientes</li>
+    <li>Ótima opção para refeições leves e saborosas</li>
+  </ul>
+
+  <h2>Dicas Especiais</h2>
+
+  <p>
+    Para uma versão ainda mais saborosa, utilize carne de sol desfiada ou carne seca.
+    Você também pode adicionar requeijão, tomate picado ou milho ao recheio.
+  </p>
+
+  <p>
+    Sirva acompanhada de suco natural ou café fresquinho para uma refeição completa.
+  </p>
+  </section>
+  HTML
   ]
-  
 ];
