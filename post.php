@@ -14,7 +14,7 @@ if (isset($_GET["id"])) {
   }
 }
 
-//EVITAR ERRO SE NÃO ACHAR O ID 
+//EVITAR ERRO SE NÃO ACHAR O ID
 if(!$currentPost){
   echo "<div class='container'><h2>Receita não encontrada</h2></div>";
   include_once("./includes/footer.php");

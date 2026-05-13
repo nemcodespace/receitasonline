@@ -16,15 +16,14 @@
           shuffle($pagina3);
           foreach ($pagina3 as $items): ?>
             <article class="card-item">
+              <a href="post.php?id=<?= $items["id"] ?>">
+                <img src="<?= $items["imagem"] ?>" alt="<?= $items["descricao"] ?>">
+              </a>
               <a href="post.php?id=<?= $items["id"]?>" class="links">
                 <h3><?= mb_substr($items["titulo"], 0, 30, "UTF-8") . "..." ?></h3>
               </a>
               <a href="post.php?id=<?= $items["id"]?>" class="links">
                 <p><?= mb_substr($items["subtitulo"], 0, 40, "UTF-8") . "..."?></p>
-              </a>
-              
-              <a href="post.php?id=<?= $items["id"] ?>">
-                <img src="<?= $items["imagem"] ?>" alt="<?= $items["descricao"] ?>">
               </a>
               <!-- LEIA MAIS  -->
               <div class="ver">
