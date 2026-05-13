@@ -100,7 +100,7 @@
     </div>
     
     <!-- CARDS DAS RECEITAS -->
-    <section class="cards-receitas" data-ad-unit="noads">
+    <section class="cards-receitas padding" data-ad-unit="noads">
         <?php 
           shuffle($pagina1);
           foreach ($pagina1 as $items): ?>
