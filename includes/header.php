@@ -70,7 +70,7 @@ htmlspecialchars($currentPost['imagem'] ?? 'imgs/berinjela.avif', ENT_QUOTES, 'U
   <header class="header-top" data-ad-unit="noads">
       <div class="logo"><!-- LOGO -->
         <div class="container logo">
-          <a href="index.php">Receitas Online</a>
+          <a href="index.php"><img src="icons/logo.png" alt="logo receitas online" class="logo-img">Receitas Online</a>
           <div class="logo-radius">
             <button onclick="mostrarSearch()">
               <img src="icons/search2.svg" alt="search">
