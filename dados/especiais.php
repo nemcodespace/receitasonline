@@ -864,5 +864,104 @@ $especiais = [
   </p>
   </section>
   HTML
+  ],
+  [
+  "id" => "ReceitadePastelFritoCrocante",
+  "titulo" => "Receita de Pastel Frito Crocante",
+  "subtitulo" => "Receita de Pastel Frito Crocante simples e fácil de fazer em casa",
+  "descricao" => "Receita de Pastel Frito Crocante",
+  "imagem" => "imgs/pastel.jpg",
+  "receita_completa" => <<<HTML
+  <section class="receita">
+  <h2>Receita de Pastel Frito Crocante</h2>
+
+  <p>
+    O <strong>pastel frito</strong> é uma das receitas mais amadas do Brasil. 
+    Com massa sequinha e recheio saboroso, ele combina perfeitamente com lanches da tarde, festas ou até mesmo para vender.
+  </p>
+
+  <h2>Ingredientes da Massa</h2>
+
+  <ul>
+    <li>2 xícaras de farinha de trigo</li>
+    <li>1 colher de sopa de óleo</li>
+    <li>1 colher de sopa de vinagre branco</li>
+    <li>1 colher de chá de sal</li>
+    <li>1/2 xícara de água morna</li>
+  </ul>
+
+  <h2>Ingredientes do Recheio</h2>
+
+  <ul>
+    <li>300g de carne moída</li>
+    <li>1 cebola picada</li>
+    <li>2 dentes de alho amassados</li>
+    <li>Cheiro-verde a gosto</li>
+    <li>Sal e pimenta-do-reino a gosto</li>
+    <li>Óleo para fritar</li>
+  </ul>
+
+  <h2>Modo de Preparo</h2>
+
+  <ol>
+    <li>
+      Em uma tigela, misture a farinha, o sal, o óleo e o vinagre.
+    </li>
+
+    <li>
+      Adicione a água morna aos poucos até formar uma massa lisa e homogênea.
+    </li>
+
+    <li>
+      Sove a massa por cerca de 10 minutos e deixe descansar por 20 minutos.
+    </li>
+
+    <li>
+      Enquanto isso, prepare o recheio refogando a cebola e o alho.
+    </li>
+
+    <li>
+      Acrescente a carne moída e cozinhe até secar bem.
+    </li>
+
+    <li>
+      Tempere com sal, pimenta e cheiro-verde. Espere esfriar.
+    </li>
+
+    <li>
+      Abra a massa com um rolo até ficar fina e corte em retângulos.
+    </li>
+
+    <li>
+      Coloque o recheio, dobre a massa e pressione as bordas com um garfo.
+    </li>
+
+    <li>
+      Frite em óleo quente até os pastéis ficarem dourados e crocantes.
+    </li>
+
+    <li>
+      Retire e deixe escorrer em papel toalha antes de servir.
+    </li>
+  </ol>
+
+  <h2>Benefícios da Receita</h2>
+
+  <ul>
+    <li>Ótima opção para lanches e reuniões em família</li>
+    <li>Pode ser preparada com diversos recheios</li>
+    <li>Receita econômica e fácil de fazer</li>
+    <li>Massa crocante e saborosa</li>
+  </ul>
+
+  <h2>Dicas Especiais</h2>
+
+  <p>
+    Para um pastel ainda mais crocante, adicione uma colher de cachaça na massa. 
+    Evite recheios muito úmidos para não abrir durante a fritura.
+  </p>
+
+  </section>
+  HTML
   ]
 ];
